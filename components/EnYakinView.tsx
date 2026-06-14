@@ -84,8 +84,10 @@ export function EnYakinView({ eczaneler }: EnYakinViewProps) {
 
   return (
     <div className="space-y-3 md:space-y-4">
-      <section className="rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-800 p-3 text-white shadow-lg md:rounded-3xl md:p-6">
-        <h1 className="text-xl font-bold md:text-3xl">En Yakın Nöbetçi Eczane</h1>
+      <section className="rounded-2xl bg-linear-to-br from-emerald-600 to-emerald-800 p-3 text-white shadow-lg md:rounded-3xl md:p-6">
+        <h1 className="text-xl font-bold md:text-3xl">
+          En Yakın Nöbetçi Eczane
+        </h1>
         <p className="mt-1 max-w-2xl text-xs text-emerald-50 md:mt-2 md:text-base">
           Konumunu paylaşırsan bugün Bursa&apos;da sana en yakın nöbetçi
           eczaneyi anında gösteririz.
@@ -127,14 +129,18 @@ export function EnYakinView({ eczaneler }: EnYakinViewProps) {
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               Sana en yakın nöbetçi eczane
             </p>
-            <h2 className="mt-1 text-lg font-bold md:text-2xl">{nearest.name}</h2>
+            <h2 className="mt-1 text-lg font-bold md:text-2xl">
+              {nearest.name}
+            </h2>
             <p className="mt-1 text-sm text-zinc-600">
               {nearest.district} ·{" "}
               {nearest.distanceMeters < 1000
                 ? `${Math.round(nearest.distanceMeters)} m`
                 : `${(nearest.distanceMeters / 1000).toFixed(1)} km`}
             </p>
-            <p className="mt-1 text-sm text-zinc-600 md:mt-2">{nearest.address}</p>
+            <p className="mt-1 text-sm text-zinc-600 md:mt-2">
+              {nearest.address}
+            </p>
             <div className="mt-2 flex flex-wrap gap-2 md:mt-3">
               <a
                 href={getDirectionsUrl(nearest.lat, nearest.lng)}
@@ -170,7 +176,11 @@ export function EnYakinView({ eczaneler }: EnYakinViewProps) {
       <div className="-mx-4 md:mx-0">
         <MapExplorerClient
           eczaneler={eczaneler}
-          scope={geoStatus === "granted" ? { type: "all", label: "Bursa" } : fallbackScope}
+          scope={
+            geoStatus === "granted"
+              ? { type: "all", label: "Bursa" }
+              : fallbackScope
+          }
           autoLocate={geoStatus === "granted"}
           highlightNearest={geoStatus === "granted"}
           className="map-explorer--page map-explorer--tall"
