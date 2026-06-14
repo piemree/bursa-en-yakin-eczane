@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { EczaneFinder } from "@/components/EczaneFinder";
 import { JsonLd } from "@/components/JsonLd";
-import { SearchBar } from "@/components/SearchBar";
+import { EczaneSeoList } from "@/components/EczaneSeoList";
+import { MapExplorerClient } from "@/components/MapExplorerClient";
+import { DistrictPicker } from "@/components/DistrictPicker";
 import { getAllStaticSlugs, resolveScopeFromSlug } from "@/lib/data";
 import { formatTurkishDate } from "@/lib/date";
 import { filterEczanelerByDistrict, getNobetciEczaneler } from "@/lib/scrape";
@@ -28,10 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const dateLabel = formatTurkishDate();
-  const title =
-    scope.type === "mahalle"
-      ? `${scope.label} Nöbetçi Eczane - ${dateLabel}`
-      : `${scope.label} Nöbetçi Eczane - ${dateLabel}`;
+  const title = `${scope.label} Nöbetçi Eczane - ${dateLabel}`;
 
   const description =
     scope.type === "mahalle"
@@ -83,28 +81,35 @@ export default async function SlugPage({ params }: PageProps) {
           { name: scope.label, url: pageUrl },
         ]}
       />
+      <EczaneSeoList eczaneler={eczaneler} />
 
-      <section className="space-y-6">
-        <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-zinc-200">
-          <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">
+      <section className="space-y-4">
+        <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-zinc-200 md:rounded-3xl md:p-6">
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700 md:text-sm">
             {data.dateLabel}
           </p>
-          <h1 className="mt-2 text-3xl font-bold text-zinc-900">
+          <h1 className="mt-1 text-2xl font-bold text-zinc-900 md:mt-2 md:text-3xl">
             {scope.label} Nöbetçi Eczane
           </h1>
           {scope.type === "mahalle" && scope.district && (
-            <p className="mt-2 text-zinc-600">{scope.district} ilçesi</p>
+            <p className="mt-1 text-sm text-zinc-600">{scope.district} ilçesi</p>
           )}
-          <p className="mt-3 text-zinc-600">
+          <p className="mt-2 hidden text-zinc-600 md:block">
             Bugün {scope.label} bölgesinde nöbetçi {eczaneler.length} eczane
-            bulundu. Konumunu açarak en yakınını görebilirsin.
+            bulundu.
           </p>
-          <div className="mt-6">
-            <SearchBar />
+          <div className="mt-4">
+            <DistrictPicker />
           </div>
         </div>
 
-        <EczaneFinder eczaneler={eczaneler} scope={scope} showMap />
+        <div className="-mx-4 md:mx-0">
+          <MapExplorerClient
+            eczaneler={eczaneler}
+            scope={scope}
+            className="map-explorer--page"
+          />
+        </div>
       </section>
     </>
   );

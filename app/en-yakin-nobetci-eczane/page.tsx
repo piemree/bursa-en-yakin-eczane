@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EnYakinView } from "@/components/EnYakinView";
+import { EczaneSeoList } from "@/components/EczaneSeoList";
 import { JsonLd } from "@/components/JsonLd";
 import { getNobetciEczaneler } from "@/lib/scrape";
 
@@ -37,6 +38,7 @@ export default async function EnYakinPage() {
           { name: "En Yakın Nöbetçi Eczane", url: pageUrl },
         ]}
       />
+      <EczaneSeoList eczaneler={data.eczaneler} />
       <EnYakinView eczaneler={data.eczaneler} />
     </>
   );

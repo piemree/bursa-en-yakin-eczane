@@ -8,6 +8,7 @@ interface EczaneCardProps {
   highlighted?: boolean;
   onSelect?: (eczane: EczaneWithDistance) => void;
   selected?: boolean;
+  variant?: "card" | "row";
 }
 
 export function EczaneCard({
@@ -15,8 +16,34 @@ export function EczaneCard({
   highlighted = false,
   onSelect,
   selected = false,
+  variant = "card",
 }: EczaneCardProps) {
   const primaryPhone = eczane.phones[0]?.replace(/\s+/g, "") ?? "";
+
+  if (variant === "row") {
+    return (
+      <button
+        type="button"
+        onClick={() => onSelect?.(eczane)}
+        className={`eczane-row ${selected ? "eczane-row--selected" : ""} ${highlighted ? "eczane-row--highlighted" : ""}`}
+      >
+        <div className="min-w-0 flex-1 text-left">
+          <p className="truncate font-semibold text-zinc-900">{eczane.name}</p>
+          <p className="truncate text-sm text-zinc-500">{eczane.district}</p>
+        </div>
+        {typeof eczane.distanceMeters === "number" && (
+          <span className="shrink-0 text-sm font-semibold text-zinc-700">
+            {eczane.distanceMeters < 1000
+              ? `${Math.round(eczane.distanceMeters)} m`
+              : `${(eczane.distanceMeters / 1000).toFixed(1)} km`}
+          </span>
+        )}
+        <span className="shrink-0 text-zinc-400" aria-hidden>
+          ›
+        </span>
+      </button>
+    );
+  }
 
   return (
     <article

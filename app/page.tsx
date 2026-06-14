@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EczaneFinder } from "@/components/EczaneFinder";
 import { JsonLd } from "@/components/JsonLd";
-import { SearchBar } from "@/components/SearchBar";
+import { EczaneSeoList } from "@/components/EczaneSeoList";
+import { MapExplorerClient } from "@/components/MapExplorerClient";
+import { DistrictPicker } from "@/components/DistrictPicker";
 import { formatTurkishDate } from "@/lib/date";
 import { getNobetciEczaneler } from "@/lib/scrape";
 
@@ -31,38 +32,39 @@ export default async function HomePage() {
         eczaneler={data.eczaneler}
         breadcrumbs={[{ name: "Ana Sayfa", url: siteUrl }]}
       />
+      <EczaneSeoList eczaneler={data.eczaneler} />
 
-      <section className="space-y-6">
-        <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-zinc-200">
-          <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">
+      <section className="space-y-4">
+        <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-zinc-200 md:rounded-3xl md:p-6">
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700 md:text-sm">
             {data.dateLabel}
           </p>
-          <h1 className="mt-2 text-3xl font-bold text-zinc-900 sm:text-4xl">
+          <h1 className="mt-1 text-2xl font-bold text-zinc-900 md:mt-2 md:text-4xl">
             Bursa Nöbetçi Eczane
           </h1>
-          <p className="mt-3 max-w-3xl text-zinc-600">
+          <p className="mt-2 hidden text-zinc-600 md:block">
             Bugün Bursa&apos;da nöbetçi eczaneleri harita üzerinde gör, konumuna
             göre en yakından başlayarak sırala veya mahalle/ilçe ara.
           </p>
 
-          <div className="mt-6 space-y-4">
-            <SearchBar />
-            <div className="flex flex-wrap gap-3">
-              <Link
-                href="/en-yakin-nobetci-eczane"
-                className="inline-flex rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white hover:bg-emerald-700"
-              >
-                En yakın nöbetçi eczaneyi bul
-              </Link>
-            </div>
+          <div className="mt-4 space-y-3">
+            <DistrictPicker />
+            <Link
+              href="/en-yakin-nobetci-eczane"
+              className="inline-flex rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700"
+            >
+              En yakın nöbetçi eczaneyi bul
+            </Link>
           </div>
         </div>
 
-        <EczaneFinder
-          eczaneler={data.eczaneler}
-          scope={{ type: "all", label: "Bursa" }}
-          showMap
-        />
+        <div className="-mx-4 md:mx-0">
+          <MapExplorerClient
+            eczaneler={data.eczaneler}
+            scope={{ type: "all", label: "Bursa" }}
+            className="map-explorer--page"
+          />
+        </div>
       </section>
     </>
   );

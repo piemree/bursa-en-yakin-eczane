@@ -6,6 +6,16 @@ import type { Ilce, Mahalle, Scope } from "./types";
 export const ilceler = ilcelerData as Ilce[];
 export const mahalleler = mahallelerData as Mahalle[];
 
+/** BEO nöbet bölgeleri aynı ilçeyi birden fazla satırda tutabiliyor; UI için tekilleştir. */
+export function getUniqueIlceler(): Ilce[] {
+  const seen = new Set<string>();
+  return ilceler.filter((ilce) => {
+    if (seen.has(ilce.id)) return false;
+    seen.add(ilce.id);
+    return true;
+  });
+}
+
 const ilceBySlug = new Map(ilceler.map((ilce) => [ilce.slug, ilce]));
 const ilceById = new Map(ilceler.map((ilce) => [ilce.id, ilce]));
 const mahalleBySlug = new Map(mahalleler.map((mahalle) => [mahalle.slug, mahalle]));
