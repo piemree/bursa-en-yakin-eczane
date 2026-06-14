@@ -1,0 +1,268 @@
+[
+  {
+    "id": "merkez",
+    "name": "Merkez",
+    "slug": "merkez-nobetci-eczane",
+    "beoId": "1277",
+    "dutyZone": "MERKEZ"
+  },
+  {
+    "id": "buyukorhan",
+    "name": "Büyükorhan",
+    "slug": "buyukorhan-nobetci-eczane",
+    "beoId": "1292",
+    "dutyZone": "BÜYÜKORHAN"
+  },
+  {
+    "id": "gemlik",
+    "name": "Gemli̇k",
+    "slug": "gemlik-nobetci-eczane",
+    "beoId": "1290",
+    "dutyZone": "GEMLİK"
+  },
+  {
+    "id": "gursu",
+    "name": "Gürsu",
+    "slug": "gursu-nobetci-eczane",
+    "beoId": "1289",
+    "dutyZone": "GÜRSU"
+  },
+  {
+    "id": "harmancik",
+    "name": "Harmancik",
+    "slug": "harmancik-nobetci-eczane",
+    "beoId": "1288",
+    "dutyZone": "HARMANCIK"
+  },
+  {
+    "id": "inegol",
+    "name": "İnegöl",
+    "slug": "inegol-nobetci-eczane",
+    "beoId": "1280",
+    "dutyZone": "İNEGÖL"
+  },
+  {
+    "id": "iznik",
+    "name": "İzni̇k",
+    "slug": "iznik-nobetci-eczane",
+    "beoId": "1291",
+    "dutyZone": "İZNİK"
+  },
+  {
+    "id": "karacabey",
+    "name": "Karacabey",
+    "slug": "karacabey-nobetci-eczane",
+    "beoId": "1287",
+    "dutyZone": "KARACABEY"
+  },
+  {
+    "id": "keles",
+    "name": "Keles",
+    "slug": "keles-nobetci-eczane",
+    "beoId": "1286",
+    "dutyZone": "KELES"
+  },
+  {
+    "id": "kestel",
+    "name": "Kestel",
+    "slug": "kestel-nobetci-eczane",
+    "beoId": "1285",
+    "dutyZone": "KESTEL"
+  },
+  {
+    "id": "nilufer",
+    "name": "Ni̇lüfer",
+    "slug": "nilufer-nobetci-eczane",
+    "beoId": "1296",
+    "dutyZone": "NİLÜFER - ÇALI"
+  },
+  {
+    "id": "mudanya",
+    "name": "Mudanya",
+    "slug": "mudanya-nobetci-eczane",
+    "beoId": "1294",
+    "dutyZone": "MUDANYA - GÜZELYALI"
+  },
+  {
+    "id": "mudanya",
+    "name": "Mudanya",
+    "slug": "mudanya-nobetci-eczane",
+    "beoId": "1278",
+    "dutyZone": "MUDANYA"
+  },
+  {
+    "id": "mustafakemalpasa",
+    "name": "Mustafakemalpaşa",
+    "slug": "mustafakemalpasa-nobetci-eczane",
+    "beoId": "1284",
+    "dutyZone": "MUSTAFAKEMALPAŞA"
+  },
+  {
+    "id": "orhaneli",
+    "name": "Orhaneli̇",
+    "slug": "orhaneli-nobetci-eczane",
+    "beoId": "1283",
+    "dutyZone": "ORHANELİ"
+  },
+  {
+    "id": "orhangazi",
+    "name": "Orhangazi̇",
+    "slug": "orhangazi-nobetci-eczane",
+    "beoId": "1282",
+    "dutyZone": "ORHANGAZİ"
+  },
+  {
+    "id": "osmangazi",
+    "name": "Osmangazi̇",
+    "slug": "osmangazi-nobetci-eczane",
+    "beoId": "1293",
+    "dutyZone": "OSMANGAZİ - DEMİRTAŞ"
+  },
+  {
+    "id": "osmangazi",
+    "name": "Osmangazi̇",
+    "slug": "osmangazi-nobetci-eczane",
+    "beoId": "1297",
+    "dutyZone": "OSMANGAZİ - OVAAKÇA"
+  },
+  {
+    "id": "yenisehir",
+    "name": "Yeni̇şehi̇r",
+    "slug": "yenisehir-nobetci-eczane",
+    "beoId": "1281",
+    "dutyZone": "YENİŞEHİR"
+  },
+  {
+    "id": "merkez",
+    "name": "Merkez",
+    "slug": "merkez-nobetci-eczane",
+    "beoId": "1277",
+    "dutyZone": "MERKEZ"
+  },
+  {
+    "id": "buyukorhan",
+    "name": "Büyükorhan",
+    "slug": "buyukorhan-nobetci-eczane",
+    "beoId": "1292",
+    "dutyZone": "BÜYÜKORHAN"
+  },
+  {
+    "id": "gemlik",
+    "name": "Gemli̇k",
+    "slug": "gemlik-nobetci-eczane",
+    "beoId": "1290",
+    "dutyZone": "GEMLİK"
+  },
+  {
+    "id": "gursu",
+    "name": "Gürsu",
+    "slug": "gursu-nobetci-eczane",
+    "beoId": "1289",
+    "dutyZone": "GÜRSU"
+  },
+  {
+    "id": "harmancik",
+    "name": "Harmancik",
+    "slug": "harmancik-nobetci-eczane",
+    "beoId": "1288",
+    "dutyZone": "HARMANCIK"
+  },
+  {
+    "id": "inegol",
+    "name": "İnegöl",
+    "slug": "inegol-nobetci-eczane",
+    "beoId": "1280",
+    "dutyZone": "İNEGÖL"
+  },
+  {
+    "id": "iznik",
+    "name": "İzni̇k",
+    "slug": "iznik-nobetci-eczane",
+    "beoId": "1291",
+    "dutyZone": "İZNİK"
+  },
+  {
+    "id": "karacabey",
+    "name": "Karacabey",
+    "slug": "karacabey-nobetci-eczane",
+    "beoId": "1287",
+    "dutyZone": "KARACABEY"
+  },
+  {
+    "id": "keles",
+    "name": "Keles",
+    "slug": "keles-nobetci-eczane",
+    "beoId": "1286",
+    "dutyZone": "KELES"
+  },
+  {
+    "id": "kestel",
+    "name": "Kestel",
+    "slug": "kestel-nobetci-eczane",
+    "beoId": "1285",
+    "dutyZone": "KESTEL"
+  },
+  {
+    "id": "nilufer",
+    "name": "Ni̇lüfer",
+    "slug": "nilufer-nobetci-eczane",
+    "beoId": "1296",
+    "dutyZone": "NİLÜFER - ÇALI"
+  },
+  {
+    "id": "mudanya",
+    "name": "Mudanya",
+    "slug": "mudanya-nobetci-eczane",
+    "beoId": "1294",
+    "dutyZone": "MUDANYA - GÜZELYALI"
+  },
+  {
+    "id": "mudanya",
+    "name": "Mudanya",
+    "slug": "mudanya-nobetci-eczane",
+    "beoId": "1278",
+    "dutyZone": "MUDANYA"
+  },
+  {
+    "id": "mustafakemalpasa",
+    "name": "Mustafakemalpaşa",
+    "slug": "mustafakemalpasa-nobetci-eczane",
+    "beoId": "1284",
+    "dutyZone": "MUSTAFAKEMALPAŞA"
+  },
+  {
+    "id": "orhaneli",
+    "name": "Orhaneli̇",
+    "slug": "orhaneli-nobetci-eczane",
+    "beoId": "1283",
+    "dutyZone": "ORHANELİ"
+  },
+  {
+    "id": "orhangazi",
+    "name": "Orhangazi̇",
+    "slug": "orhangazi-nobetci-eczane",
+    "beoId": "1282",
+    "dutyZone": "ORHANGAZİ"
+  },
+  {
+    "id": "osmangazi",
+    "name": "Osmangazi̇",
+    "slug": "osmangazi-nobetci-eczane",
+    "beoId": "1293",
+    "dutyZone": "OSMANGAZİ - DEMİRTAŞ"
+  },
+  {
+    "id": "osmangazi",
+    "name": "Osmangazi̇",
+    "slug": "osmangazi-nobetci-eczane",
+    "beoId": "1297",
+    "dutyZone": "OSMANGAZİ - OVAAKÇA"
+  },
+  {
+    "id": "yenisehir",
+    "name": "Yeni̇şehi̇r",
+    "slug": "yenisehir-nobetci-eczane",
+    "beoId": "1281",
+    "dutyZone": "YENİŞEHİR"
+  }
+]

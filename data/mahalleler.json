@@ -1,0 +1,1759 @@
+[
+  {
+    "name": "Hamitler Mahallesi",
+    "district": "Osmangazi",
+    "slug": "hamitler-nobetci-eczane",
+    "population": 45854,
+    "area": 4.356
+  },
+  {
+    "name": "Millet Mahallesi",
+    "district": "Yıldırım",
+    "slug": "millet-nobetci-eczane",
+    "population": 41107,
+    "area": 3.355
+  },
+  {
+    "name": "Bağlarbaşı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "baglarbasi-nobetci-eczane",
+    "population": 36677,
+    "area": 1.518
+  },
+  {
+    "name": "Emek Adnan Menderes Mahallesi",
+    "district": "Osmangazi",
+    "slug": "emek-adnan-menderes-nobetci-eczane",
+    "population": 31136,
+    "area": 1.082
+  },
+  {
+    "name": "Demirtaş Cumhuriyet Mahallesi",
+    "district": "Osmangazi",
+    "slug": "demirtas-cumhuriyet-nobetci-eczane",
+    "population": 30130,
+    "area": 5.02
+  },
+  {
+    "name": "Yunuseli Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yunuseli-nobetci-eczane",
+    "population": 29341,
+    "area": 5.083
+  },
+  {
+    "name": "İhsaniye Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ihsaniye-nobetci-eczane",
+    "population": 28348,
+    "area": 1.493
+  },
+  {
+    "name": "Arabayatağı Mahallesi",
+    "district": "Yıldırım",
+    "slug": "arabayatagi-nobetci-eczane",
+    "population": 26338,
+    "area": 1.567
+  },
+  {
+    "name": "Soğanlı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "soganli-nobetci-eczane",
+    "population": 24035,
+    "area": 3.414
+  },
+  {
+    "name": "Alemdar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alemdar-nobetci-eczane",
+    "population": 24001,
+    "area": 0.892
+  },
+  {
+    "name": "Konak Mahallesi",
+    "district": "Nilüfer",
+    "slug": "konak-nobetci-eczane",
+    "population": 22917,
+    "area": 1.582
+  },
+  {
+    "name": "Değirmenönü Mahallesi",
+    "district": "Yıldırım",
+    "slug": "degirmenonu-nobetci-eczane",
+    "population": 22884,
+    "area": 1.93
+  },
+  {
+    "name": "Küçükbalıklı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kucukbalikli-nobetci-eczane",
+    "population": 22783,
+    "area": 2.891
+  },
+  {
+    "name": "Emek Fatih Sultan Mehmet Mahallesi",
+    "district": "Osmangazi",
+    "slug": "emek-fatih-sultan-mehmet-nobetci-eczane",
+    "population": 22450,
+    "area": 0.588
+  },
+  {
+    "name": "Üçevler Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ucevler-nobetci-eczane",
+    "population": 22194,
+    "area": 4.928
+  },
+  {
+    "name": "Panayır Mahallesi",
+    "district": "Osmangazi",
+    "slug": "panayir-nobetci-eczane",
+    "population": 22081,
+    "area": 4.263
+  },
+  {
+    "name": "Kurtuluş Mahallesi",
+    "district": "Gürsü",
+    "slug": "kurtulus-nobetci-eczane",
+    "population": 22022,
+    "area": 1.277
+  },
+  {
+    "name": "Çiftehavuzlar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ciftehavuzlar-nobetci-eczane",
+    "population": 21627,
+    "area": 0.575
+  },
+  {
+    "name": "Şirinevler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "sirinevler-nobetci-eczane",
+    "population": 21590,
+    "area": 2.006
+  },
+  {
+    "name": "Beşevler Mahallesi",
+    "district": "Nilüfer",
+    "slug": "besevler-nobetci-eczane",
+    "population": 21038,
+    "area": 1.629
+  },
+  {
+    "name": "Yenidoğan Mahallesi",
+    "district": "Gürsü",
+    "slug": "yenidogan-nobetci-eczane",
+    "population": 20954,
+    "area": 0.813
+  },
+  {
+    "name": "Güneştepe Mahallesi",
+    "district": "Osmangazi",
+    "slug": "gunestepe-nobetci-eczane",
+    "population": 20803,
+    "area": 2.007
+  },
+  {
+    "name": "Fethiye Mahallesi",
+    "district": "Nilüfer",
+    "slug": "fethiye-nobetci-eczane",
+    "population": 20605,
+    "area": 1.284
+  },
+  {
+    "name": "Dikkaldırım Mahallesi",
+    "district": "Osmangazi",
+    "slug": "dikkaldirim-nobetci-eczane",
+    "population": 20197,
+    "area": 1.289
+  },
+  {
+    "name": "Yüzüncüyıl Mahallesi",
+    "district": "Nilüfer",
+    "slug": "yuzuncuyil-nobetci-eczane",
+    "population": 19252,
+    "area": 1.226
+  },
+  {
+    "name": "Görükle Mahallesi",
+    "district": "Nilüfer",
+    "slug": "gorukle-nobetci-eczane",
+    "population": 19107,
+    "area": 22.869
+  },
+  {
+    "name": "Dumlupınar Mahallesi",
+    "district": "Nilüfer",
+    "slug": "dumlupinar-nobetci-eczane",
+    "population": 18735,
+    "area": 3.297
+  },
+  {
+    "name": "Bağlaraltı Mahallesi",
+    "district": "Yıldırım",
+    "slug": "baglaralti-nobetci-eczane",
+    "population": 18486,
+    "area": 0.856
+  },
+  {
+    "name": "Esenevler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "esenevler-nobetci-eczane",
+    "population": 18158,
+    "area": 0.567
+  },
+  {
+    "name": "Zafer Mahallesi",
+    "district": "Gürsü",
+    "slug": "zafer-nobetci-eczane",
+    "population": 17537,
+    "area": 4.013
+  },
+  {
+    "name": "Ulus Mahallesi",
+    "district": "Yıldırım",
+    "slug": "ulus-nobetci-eczane",
+    "population": 17376,
+    "area": 0.486
+  },
+  {
+    "name": "Başaran Mahallesi",
+    "district": "Osmangazi",
+    "slug": "basaran-nobetci-eczane",
+    "population": 17292,
+    "area": 0.528
+  },
+  {
+    "name": "Altınşehir Mahallesi",
+    "district": "Nilüfer",
+    "slug": "altinsehir-nobetci-eczane",
+    "population": 17251,
+    "area": 2.764
+  },
+  {
+    "name": "Yavuzselım Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yavuzselim-nobetci-eczane",
+    "population": 16650,
+    "area": 0.553
+  },
+  {
+    "name": "Hacivat Mahallesi",
+    "district": "Yıldırım",
+    "slug": "hacivat-nobetci-eczane",
+    "population": 16568,
+    "area": 1.088
+  },
+  {
+    "name": "Demirtaş Barbaros Mahallesi",
+    "district": "Osmangazi",
+    "slug": "demirtas-barbaros-nobetci-eczane",
+    "population": 16554,
+    "area": 6.791
+  },
+  {
+    "name": "Ortabağlar Mahallesi",
+    "district": "Yıldırım",
+    "slug": "ortabaglar-nobetci-eczane",
+    "population": 16214,
+    "area": 0.518
+  },
+  {
+    "name": "Cumhuriyet Mahallesi",
+    "district": "Nilüfer",
+    "slug": "cumhuriyet-nobetci-eczane",
+    "population": 16210,
+    "area": 1.148
+  },
+  {
+    "name": "Çamlıca Mahallesi",
+    "district": "Nilüfer",
+    "slug": "camlica-nobetci-eczane",
+    "population": 16034,
+    "area": 1.904
+  },
+  {
+    "name": "Yenibağlar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yenibaglar-nobetci-eczane",
+    "population": 15840,
+    "area": 0.743
+  },
+  {
+    "name": "Akçağlayan Mahallesi",
+    "district": "Yıldırım",
+    "slug": "akcaglayan-nobetci-eczane",
+    "population": 15794,
+    "area": 1.475
+  },
+  {
+    "name": "Değirmenlikızık Mahallesi",
+    "district": "Yıldırım",
+    "slug": "degirmenlikizik-nobetci-eczane",
+    "population": 15609,
+    "area": 0.631
+  },
+  {
+    "name": "Akpınar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "akpinar-nobetci-eczane",
+    "population": 15596,
+    "area": 1.356
+  },
+  {
+    "name": "Fatih Mahallesi",
+    "district": "Osmangazi",
+    "slug": "fatih-nobetci-eczane",
+    "population": 15558,
+    "area": 0.759
+  },
+  {
+    "name": "Çınarönü Mahallesi",
+    "district": "Yıldırım",
+    "slug": "cinaronu-nobetci-eczane",
+    "population": 14607,
+    "area": 1.22
+  },
+  {
+    "name": "29 Ekim Mahallesi",
+    "district": "Nilüfer",
+    "slug": "29-ekim-nobetci-eczane",
+    "population": 14274,
+    "area": 1.383
+  },
+  {
+    "name": "Yeşilova Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yesilova-nobetci-eczane",
+    "population": 14222,
+    "area": 0.446
+  },
+  {
+    "name": "İstiklal Mahallesi",
+    "district": "Gürsü",
+    "slug": "istiklal-nobetci-eczane",
+    "population": 14112,
+    "area": 2.411
+  },
+  {
+    "name": "Vanimehmet Mahallesi",
+    "district": "Kestel",
+    "slug": "vanimehmet-nobetci-eczane",
+    "population": 13987,
+    "area": 1.691
+  },
+  {
+    "name": "Sırameşeler Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sirameseler-nobetci-eczane",
+    "population": 13795,
+    "area": 2.155
+  },
+  {
+    "name": "Mimarsinan Mahallesi",
+    "district": "Yıldırım",
+    "slug": "mimarsinan-nobetci-eczane",
+    "population": 12994,
+    "area": 1.129
+  },
+  {
+    "name": "Karapınar Mahallesi",
+    "district": "Yıldırım",
+    "slug": "karapinar-nobetci-eczane",
+    "population": 12967,
+    "area": 1.229
+  },
+  {
+    "name": "Zümrütevler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "zumrutevler-nobetci-eczane",
+    "population": 12625,
+    "area": 0.386
+  },
+  {
+    "name": "Küplüpınar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kuplupinar-nobetci-eczane",
+    "population": 12246,
+    "area": 0.478
+  },
+  {
+    "name": "Balat Mahallesi",
+    "district": "Nilüfer",
+    "slug": "balat-nobetci-eczane",
+    "population": 12141,
+    "area": 3.563
+  },
+  {
+    "name": "Erikli Mahallesi",
+    "district": "Yıldırım",
+    "slug": "erikli-nobetci-eczane",
+    "population": 12122,
+    "area": 0.414
+  },
+  {
+    "name": "Çekirge Mahallesi",
+    "district": "Osmangazi",
+    "slug": "cekirge-nobetci-eczane",
+    "population": 12033,
+    "area": 2.005
+  },
+  {
+    "name": "Yiğitler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yigitler-nobetci-eczane",
+    "population": 11860,
+    "area": 1.663
+  },
+  {
+    "name": "Piremir Mahallesi",
+    "district": "Yıldırım",
+    "slug": "piremir-nobetci-eczane",
+    "population": 11829,
+    "area": 4.887
+  },
+  {
+    "name": "Kültür Mahallesi",
+    "district": "Nilüfer",
+    "slug": "kultur-nobetci-eczane",
+    "population": 11821,
+    "area": 1.201
+  },
+  {
+    "name": "Barış Mahallesi",
+    "district": "Nilüfer",
+    "slug": "baris-nobetci-eczane",
+    "population": 11427,
+    "area": 0.865
+  },
+  {
+    "name": "Kükürtlü Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kukurtlu-nobetci-eczane",
+    "population": 11424,
+    "area": 1.045
+  },
+  {
+    "name": "Karaman Mahallesi",
+    "district": "Nilüfer",
+    "slug": "karaman-nobetci-eczane",
+    "population": 11397,
+    "area": 0.663
+  },
+  {
+    "name": "Selçukbey Mahallesi",
+    "district": "Yıldırım",
+    "slug": "selcukbey-nobetci-eczane",
+    "population": 11347,
+    "area": 0.345
+  },
+  {
+    "name": "Eğitim Mahallesi",
+    "district": "Yıldırım",
+    "slug": "egitim-nobetci-eczane",
+    "population": 11257,
+    "area": 0.335
+  },
+  {
+    "name": "Yeni Mahallesi",
+    "district": "Kestel",
+    "slug": "yeni-nobetci-eczane",
+    "population": 11194,
+    "area": 1.953
+  },
+  {
+    "name": "Ertuğrul Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ertugrul-nobetci-eczane",
+    "population": 11175,
+    "area": 1.298
+  },
+  {
+    "name": "Yenikaraman Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yenikaraman-nobetci-eczane",
+    "population": 11159,
+    "area": 0.722
+  },
+  {
+    "name": "Çalı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "cali-nobetci-eczane",
+    "population": 11148,
+    "area": 20.512
+  },
+  {
+    "name": "Çirişhane Mahallesi",
+    "district": "Osmangazi",
+    "slug": "cirishane-nobetci-eczane",
+    "population": 10851,
+    "area": 0.282
+  },
+  {
+    "name": "Yunusemre Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yunusemre-nobetci-eczane",
+    "population": 10844,
+    "area": 1.848
+  },
+  {
+    "name": "Mevlana Mahallesi",
+    "district": "Yıldırım",
+    "slug": "mevlana-nobetci-eczane",
+    "population": 10722,
+    "area": 0.423
+  },
+  {
+    "name": "Atıcılar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "aticilar-nobetci-eczane",
+    "population": 10337,
+    "area": 0.314
+  },
+  {
+    "name": "Güllük Mahallesi",
+    "district": "Yıldırım",
+    "slug": "gulluk-nobetci-eczane",
+    "population": 9911,
+    "area": 0.35
+  },
+  {
+    "name": "Şükraniye Mahallesi",
+    "district": "Yıldırım",
+    "slug": "sukraniye-nobetci-eczane",
+    "population": 9765,
+    "area": 0.41
+  },
+  {
+    "name": "Soğukkuyu Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sogukkuyu-nobetci-eczane",
+    "population": 9733,
+    "area": 0.458
+  },
+  {
+    "name": "Emek Zekai Gümüşdiş Mahallesi",
+    "district": "Osmangazi",
+    "slug": "emek-zekai-gumusdis-nobetci-eczane",
+    "population": 9711,
+    "area": 0.287
+  },
+  {
+    "name": "Samanlı Mahallesi",
+    "district": "Yıldırım",
+    "slug": "samanli-nobetci-eczane",
+    "population": 9707,
+    "area": 8.623
+  },
+  {
+    "name": "Ataevler Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ataevler-nobetci-eczane",
+    "population": 9643,
+    "area": 1.078
+  },
+  {
+    "name": "Vatan Mahallesi",
+    "district": "Yıldırım",
+    "slug": "vatan-nobetci-eczane",
+    "population": 9631,
+    "area": 0.767
+  },
+  {
+    "name": "Demirtaş Sakarya Mahallesi",
+    "district": "Osmangazi",
+    "slug": "demirtas-sakarya-nobetci-eczane",
+    "population": 9569,
+    "area": 3.923
+  },
+  {
+    "name": "Kazım Karabekir Mahallesi",
+    "district": "Yıldırım",
+    "slug": "kazim-karabekir-nobetci-eczane",
+    "population": 9384,
+    "area": 0.859
+  },
+  {
+    "name": "Ertuğrulgazi Mahallesi",
+    "district": "Yıldırım",
+    "slug": "ertugrulgazi-nobetci-eczane",
+    "population": 9297,
+    "area": 0.475
+  },
+  {
+    "name": "Demetevler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "demetevler-nobetci-eczane",
+    "population": 9223,
+    "area": 0.571
+  },
+  {
+    "name": "Mollaarap Mahallesi",
+    "district": "Yıldırım",
+    "slug": "mollaarap-nobetci-eczane",
+    "population": 9106,
+    "area": 1.006
+  },
+  {
+    "name": "Elmasbahçeler Mahallesi",
+    "district": "Osmangazi",
+    "slug": "elmasbahceler-nobetci-eczane",
+    "population": 8977,
+    "area": 0.277
+  },
+  {
+    "name": "İstiklal Mahallesi",
+    "district": "Osmangazi",
+    "slug": "istiklal-osmangazi-nobetci-eczane",
+    "population": 8952,
+    "area": 0.585
+  },
+  {
+    "name": "Namık Kemal Mahallesi",
+    "district": "Osmangazi",
+    "slug": "namik-kemal-nobetci-eczane",
+    "population": 8687,
+    "area": 0.294
+  },
+  {
+    "name": "Gülbahçe Mahallesi",
+    "district": "Osmangazi",
+    "slug": "gulbahce-nobetci-eczane",
+    "population": 8303,
+    "area": 0.446
+  },
+  {
+    "name": "Vakıf Mahallesi",
+    "district": "Yıldırım",
+    "slug": "vakif-nobetci-eczane",
+    "population": 8281,
+    "area": 4.952
+  },
+  {
+    "name": "Baruthane Mahallesi",
+    "district": "Yıldırım",
+    "slug": "baruthane-nobetci-eczane",
+    "population": 8268,
+    "area": 0.215
+  },
+  {
+    "name": "Beyazıt Mahallesi",
+    "district": "Yıldırım",
+    "slug": "beyazit-nobetci-eczane",
+    "population": 8175,
+    "area": 0.328
+  },
+  {
+    "name": "Kale Mahallesi",
+    "district": "Kestel",
+    "slug": "kale-nobetci-eczane",
+    "population": 8073,
+    "area": 1.692
+  },
+  {
+    "name": "Selamet Mahallesi",
+    "district": "Osmangazi",
+    "slug": "selamet-nobetci-eczane",
+    "population": 7958,
+    "area": 0.27
+  },
+  {
+    "name": "Balkan Mahallesi",
+    "district": "Nilüfer",
+    "slug": "balkan-nobetci-eczane",
+    "population": 7942,
+    "area": 5.615
+  },
+  {
+    "name": "Davutkadı Mahallesi",
+    "district": "Yıldırım",
+    "slug": "davutkadi-nobetci-eczane",
+    "population": 7805,
+    "area": 0.225
+  },
+  {
+    "name": "Hacıseyfettin Mahallesi",
+    "district": "Yıldırım",
+    "slug": "haciseyfettin-nobetci-eczane",
+    "population": 7737,
+    "area": 0.122
+  },
+  {
+    "name": "Yıldırım Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yildirim-nobetci-eczane",
+    "population": 7267,
+    "area": 0.184
+  },
+  {
+    "name": "Mehmet Akif Mahallesi",
+    "district": "Osmangazi",
+    "slug": "mehmet-akif-nobetci-eczane",
+    "population": 7213,
+    "area": 1.721
+  },
+  {
+    "name": "Yenikent Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yenikent-nobetci-eczane",
+    "population": 7031,
+    "area": 3.681
+  },
+  {
+    "name": "Sıracevizler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "siracevizler-nobetci-eczane",
+    "population": 7017,
+    "area": 0.218
+  },
+  {
+    "name": "Koğukçınar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kogukcinar-nobetci-eczane",
+    "population": 6980,
+    "area": 0.254
+  },
+  {
+    "name": "Karaağaç Mahallesi",
+    "district": "Yıldırım",
+    "slug": "karaagac-nobetci-eczane",
+    "population": 6909,
+    "area": 0.2
+  },
+  {
+    "name": "Davutdede Mahallesi",
+    "district": "Yıldırım",
+    "slug": "davutdede-nobetci-eczane",
+    "population": 6908,
+    "area": 0.158
+  },
+  {
+    "name": "Bahar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "bahar-nobetci-eczane",
+    "population": 6888,
+    "area": 0.268
+  },
+  {
+    "name": "Yeşilyayla Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yesilyayla-nobetci-eczane",
+    "population": 6792,
+    "area": 0.183
+  },
+  {
+    "name": "Mollafenari Mahallesi",
+    "district": "Osmangazi",
+    "slug": "mollafenari-nobetci-eczane",
+    "population": 6720,
+    "area": 0.533
+  },
+  {
+    "name": "Kemerçeşme Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kemercesme-nobetci-eczane",
+    "population": 6627,
+    "area": 0.262
+  },
+  {
+    "name": "Maltepe Mahallesi",
+    "district": "Yıldırım",
+    "slug": "maltepe-nobetci-eczane",
+    "population": 6472,
+    "area": 0.222
+  },
+  {
+    "name": "Emirsultan Mahallesi",
+    "district": "Yıldırım",
+    "slug": "emirsultan-nobetci-eczane",
+    "population": 6355,
+    "area": 0.201
+  },
+  {
+    "name": "Çırpan Mahallesi",
+    "district": "Osmangazi",
+    "slug": "cirpan-nobetci-eczane",
+    "population": 6189,
+    "area": 0.237
+  },
+  {
+    "name": "Altınova Mahallesi",
+    "district": "Osmangazi",
+    "slug": "altinova-nobetci-eczane",
+    "population": 6092,
+    "area": 2.193
+  },
+  {
+    "name": "Umurbey Mahallesi",
+    "district": "Yıldırım",
+    "slug": "umurbey-nobetci-eczane",
+    "population": 6036,
+    "area": 0.149
+  },
+  {
+    "name": "Demirtaş Dumlupınar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "demirtas-dumlupinar-nobetci-eczane",
+    "population": 5945,
+    "area": 0.605
+  },
+  {
+    "name": "Sinandede Mahallesi",
+    "district": "Yıldırım",
+    "slug": "sinandede-nobetci-eczane",
+    "population": 5932,
+    "area": 0.261
+  },
+  {
+    "name": "Ahmet Yesevi Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ahmet-yesevi-nobetci-eczane",
+    "population": 5927,
+    "area": 1.064
+  },
+  {
+    "name": "Kızılcıklı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "kizilcikli-nobetci-eczane",
+    "population": 5858,
+    "area": 3.774
+  },
+  {
+    "name": "Esentepe Mahallesi",
+    "district": "Kestel",
+    "slug": "esentepe-nobetci-eczane",
+    "population": 5802,
+    "area": 0.702
+  },
+  {
+    "name": "Teferrüç Mahallesi",
+    "district": "Yıldırım",
+    "slug": "teferruc-nobetci-eczane",
+    "population": 5730,
+    "area": 0.25
+  },
+  {
+    "name": "Hocahasan Mahallesi",
+    "district": "Osmangazi",
+    "slug": "hocahasan-nobetci-eczane",
+    "population": 5610,
+    "area": 0.1
+  },
+  {
+    "name": "Odunluk Mahallesi",
+    "district": "Nilüfer",
+    "slug": "odunluk-nobetci-eczane",
+    "population": 5548,
+    "area": 2.605
+  },
+  {
+    "name": "Fidyekızık Mahallesi",
+    "district": "Yıldırım",
+    "slug": "fidyekizik-nobetci-eczane",
+    "population": 5049,
+    "area": 0.715
+  },
+  {
+    "name": "Yediselviler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yediselviler-nobetci-eczane",
+    "population": 4980,
+    "area": 0.158
+  },
+  {
+    "name": "Maksem Mahallesi",
+    "district": "Osmangazi",
+    "slug": "maksem-nobetci-eczane",
+    "population": 4921,
+    "area": 0.178
+  },
+  {
+    "name": "Adalet Mahallesi",
+    "district": "Osmangazi",
+    "slug": "adalet-nobetci-eczane",
+    "population": 4622,
+    "area": 2.233
+  },
+  {
+    "name": "Zafer Mahallesi",
+    "district": "Osmangazi",
+    "slug": "zafer-osmangazi-nobetci-eczane",
+    "population": 4514,
+    "area": 0.337
+  },
+  {
+    "name": "Namazgah Mahallesi",
+    "district": "Yıldırım",
+    "slug": "namazgah-nobetci-eczane",
+    "population": 4352,
+    "area": 0.088
+  },
+  {
+    "name": "Doğanevler Mahallesi",
+    "district": "Osmangazi",
+    "slug": "doganevler-nobetci-eczane",
+    "population": 4285,
+    "area": 1.782
+  },
+  {
+    "name": "Alacahırka Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alacahirka-nobetci-eczane",
+    "population": 4276,
+    "area": 0.315
+  },
+  {
+    "name": "Sakarya Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sakarya-nobetci-eczane",
+    "population": 4212,
+    "area": 0.152
+  },
+  {
+    "name": "Yolçatı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "yolcati-nobetci-eczane",
+    "population": 4183,
+    "area": 9.019
+  },
+  {
+    "name": "Karamazak Mahallesi",
+    "district": "Yıldırım",
+    "slug": "karamazak-nobetci-eczane",
+    "population": 4041,
+    "area": 0.091
+  },
+  {
+    "name": "Kurtuluş Mahallesi",
+    "district": "Nilüfer",
+    "slug": "kurtulus-nilufer-nobetci-eczane",
+    "population": 3999,
+    "area": 6.867
+  },
+  {
+    "name": "İntizam Mahallesi",
+    "district": "Osmangazi",
+    "slug": "intizam-nobetci-eczane",
+    "population": 3964,
+    "area": 0.084
+  },
+  {
+    "name": "Akçalar Mahallesi",
+    "district": "Nilüfer",
+    "slug": "akcalar-nobetci-eczane",
+    "population": 3954,
+    "area": 28.756
+  },
+  {
+    "name": "Demirtaşpaşa Mahallesi",
+    "district": "Osmangazi",
+    "slug": "demirtaspasa-nobetci-eczane",
+    "population": 3848,
+    "area": 0.271
+  },
+  {
+    "name": "Kaplıkaya Mahallesi",
+    "district": "Yıldırım",
+    "slug": "kaplikaya-nobetci-eczane",
+    "population": 3838,
+    "area": 0.333
+  },
+  {
+    "name": "Selimzade Mahallesi",
+    "district": "Yıldırım",
+    "slug": "selimzade-nobetci-eczane",
+    "population": 3783,
+    "area": 0.072
+  },
+  {
+    "name": "Işıktepe Mahallesi",
+    "district": "Nilüfer",
+    "slug": "isiktepe-nobetci-eczane",
+    "population": 3764,
+    "area": 2.507
+  },
+  {
+    "name": "Kurtoğlu Mahallesi",
+    "district": "Yıldırım",
+    "slug": "kurtoglu-nobetci-eczane",
+    "population": 3519,
+    "area": 0.099
+  },
+  {
+    "name": "İsabey Mahallesi",
+    "district": "Yıldırım",
+    "slug": "isabey-nobetci-eczane",
+    "population": 3460,
+    "area": 2.587
+  },
+  {
+    "name": "Gaziakdemir Mahallesi",
+    "district": "Osmangazi",
+    "slug": "gaziakdemir-nobetci-eczane",
+    "population": 3438,
+    "area": 0.88
+  },
+  {
+    "name": "Muradiye Mahallesi",
+    "district": "Osmangazi",
+    "slug": "muradiye-nobetci-eczane",
+    "population": 3427,
+    "area": 0.209
+  },
+  {
+    "name": "Duaçınarı Mahallesi",
+    "district": "Yıldırım",
+    "slug": "duacinari-nobetci-eczane",
+    "population": 3255,
+    "area": 0.719
+  },
+  {
+    "name": "Musababa Mahallesi",
+    "district": "Yıldırım",
+    "slug": "musababa-nobetci-eczane",
+    "population": 3253,
+    "area": 0.104
+  },
+  {
+    "name": "İvazpaşa Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ivazpasa-nobetci-eczane",
+    "population": 3036,
+    "area": 0.123
+  },
+  {
+    "name": "Yeşil Mahallesi",
+    "district": "Yıldırım",
+    "slug": "yesil-nobetci-eczane",
+    "population": 2915,
+    "area": 0.115
+  },
+  {
+    "name": "Hamzabey Mahallesi",
+    "district": "Osmangazi",
+    "slug": "hamzabey-nobetci-eczane",
+    "population": 2896,
+    "area": 0.108
+  },
+  {
+    "name": "Doğanbey Mahallesi",
+    "district": "Osmangazi",
+    "slug": "doganbey-nobetci-eczane",
+    "population": 2760,
+    "area": 0.096
+  },
+  {
+    "name": "Selimiye Mahallesi",
+    "district": "Osmangazi",
+    "slug": "selimiye-nobetci-eczane",
+    "population": 2756,
+    "area": 0.051
+  },
+  {
+    "name": "19 Mayıs Mahallesi",
+    "district": "Nilüfer",
+    "slug": "19-mayis-nobetci-eczane",
+    "population": 2674,
+    "area": 2.337
+  },
+  {
+    "name": "Pınarbaşı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "pinarbasi-nobetci-eczane",
+    "population": 2588,
+    "area": 0.216
+  },
+  {
+    "name": "Alipaşa Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alipasa-nobetci-eczane",
+    "population": 2570,
+    "area": 0.09
+  },
+  {
+    "name": "Ovaakça Merkez Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ovaakca-merkez-nobetci-eczane",
+    "population": 2533,
+    "area": 2.524
+  },
+  {
+    "name": "Altıparmak Mahallesi",
+    "district": "Osmangazi",
+    "slug": "altiparmak-nobetci-eczane",
+    "population": 2520,
+    "area": 0.077
+  },
+  {
+    "name": "Meydancık Mahallesi",
+    "district": "Yıldırım",
+    "slug": "meydancik-nobetci-eczane",
+    "population": 2457,
+    "area": 0.093
+  },
+  {
+    "name": "Alaaddin Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alaaddin-nobetci-eczane",
+    "population": 2394,
+    "area": 0.164
+  },
+  {
+    "name": "Anadolu Mahallesi",
+    "district": "Yıldırım",
+    "slug": "anadolu-nobetci-eczane",
+    "population": 2372,
+    "area": 0.511
+  },
+  {
+    "name": "Ulu Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ulu-nobetci-eczane",
+    "population": 2264,
+    "area": 0.125
+  },
+  {
+    "name": "Veysel Karani Mahallesi",
+    "district": "Osmangazi",
+    "slug": "veysel-karani-nobetci-eczane",
+    "population": 2255,
+    "area": 1.639
+  },
+  {
+    "name": "Ovaakça Santral Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ovaakca-santral-nobetci-eczane",
+    "population": 2180,
+    "area": 0.871
+  },
+  {
+    "name": "Hacı İlyas Mahallesi",
+    "district": "Osmangazi",
+    "slug": "haci-ilyas-nobetci-eczane",
+    "population": 2168,
+    "area": 0.117
+  },
+  {
+    "name": "Yaylacık Mahallesi",
+    "district": "Nilüfer",
+    "slug": "yaylacik-nobetci-eczane",
+    "population": 2118,
+    "area": 11.515
+  },
+  {
+    "name": "Ovaakça Çeşmebaşı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ovaakca-cesmebasi-nobetci-eczane",
+    "population": 2104,
+    "area": 3.343
+  },
+  {
+    "name": "Ahmetpaşa Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ahmetpasa-nobetci-eczane",
+    "population": 2083,
+    "area": 0.114
+  },
+  {
+    "name": "Doğanköy Mahallesi",
+    "district": "Nilüfer",
+    "slug": "dogankoy-nobetci-eczane",
+    "population": 2061,
+    "area": 9.235
+  },
+  {
+    "name": "Kocanaip Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kocanaip-nobetci-eczane",
+    "population": 2023,
+    "area": 0.133
+  },
+  {
+    "name": "Hocaalizade Mahallesi",
+    "district": "Osmangazi",
+    "slug": "hocaalizade-nobetci-eczane",
+    "population": 1989,
+    "area": 0.117
+  },
+  {
+    "name": "Tayakadın Mahallesi",
+    "district": "Osmangazi",
+    "slug": "tayakadin-nobetci-eczane",
+    "population": 1924,
+    "area": 0.102
+  },
+  {
+    "name": "İsmetiye Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ismetiye-nobetci-eczane",
+    "population": 1883,
+    "area": 20.052
+  },
+  {
+    "name": "Alaşarköy Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alasarkoy-nobetci-eczane",
+    "population": 1786,
+    "area": 6.737
+  },
+  {
+    "name": "Yeniceabat Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yeniceabat-nobetci-eczane",
+    "population": 1691,
+    "area": 2.82
+  },
+  {
+    "name": "30 Ağustos Zafer Mahallesi",
+    "district": "Nilüfer",
+    "slug": "30-agustos-zafer-nobetci-eczane",
+    "population": 1650,
+    "area": 9.629
+  },
+  {
+    "name": "Kırcaali Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kircaali-nobetci-eczane",
+    "population": 1631,
+    "area": 0.086
+  },
+  {
+    "name": "Nalbantoğlu Mahallesi",
+    "district": "Osmangazi",
+    "slug": "nalbantoglu-nobetci-eczane",
+    "population": 1574,
+    "area": 0.128
+  },
+  {
+    "name": "Çukurcaköy Mahallesi",
+    "district": "Osmangazi",
+    "slug": "cukurcakoy-nobetci-eczane",
+    "population": 1562,
+    "area": 5.044
+  },
+  {
+    "name": "Özlüce Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ozluce-nobetci-eczane",
+    "population": 1530,
+    "area": 4.782
+  },
+  {
+    "name": "Ovaakça Eğitim Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ovaakca-egitim-nobetci-eczane",
+    "population": 1472,
+    "area": 2.744
+  },
+  {
+    "name": "Kayapa Mahallesi",
+    "district": "Nilüfer",
+    "slug": "kayapa-nobetci-eczane",
+    "population": 1451,
+    "area": 19.955
+  },
+  {
+    "name": "Hocataşkın Mahallesi",
+    "district": "Yıldırım",
+    "slug": "hocataskin-nobetci-eczane",
+    "population": 1448,
+    "area": 0.073
+  },
+  {
+    "name": "Gölyazı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "golyazi-nobetci-eczane",
+    "population": 1391,
+    "area": 21.546
+  },
+  {
+    "name": "Kavaklı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kavakli-nobetci-eczane",
+    "population": 1358,
+    "area": 0.07
+  },
+  {
+    "name": "Gümüştepe Mahallesi",
+    "district": "Nilüfer",
+    "slug": "gumustepe-nobetci-eczane",
+    "population": 1243,
+    "area": 6.147
+  },
+  {
+    "name": "Tahtalı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "tahtali-nobetci-eczane",
+    "population": 1228,
+    "area": 14.915
+  },
+  {
+    "name": "Ebu İshak Mahallesi",
+    "district": "Osmangazi",
+    "slug": "ebu-ishak-nobetci-eczane",
+    "population": 1210,
+    "area": 0.166
+  },
+  {
+    "name": "Adaköy Mahallesi",
+    "district": "Gürsü",
+    "slug": "adakoy-nobetci-eczane",
+    "population": 1183,
+    "area": 5.568
+  },
+  {
+    "name": "Santral Garaj Mahallesi",
+    "district": "Osmangazi",
+    "slug": "santral-garaj-nobetci-eczane",
+    "population": 1145,
+    "area": 0.516
+  },
+  {
+    "name": "Barakfakih Mahallesi",
+    "district": "Kestel",
+    "slug": "barakfakih-nobetci-eczane",
+    "population": 1138,
+    "area": 9.385
+  },
+  {
+    "name": "İrfaniye Mahallesi",
+    "district": "Nilüfer",
+    "slug": "irfaniye-nobetci-eczane",
+    "population": 1137,
+    "area": 9.564
+  },
+  {
+    "name": "Konaklı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "konakli-nobetci-eczane",
+    "population": 1107,
+    "area": 17.018
+  },
+  {
+    "name": "Dürdane Mahallesi",
+    "district": "Osmangazi",
+    "slug": "durdane-nobetci-eczane",
+    "population": 1087,
+    "area": 11.585
+  },
+  {
+    "name": "Kuruçeşme Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kurucesme-nobetci-eczane",
+    "population": 1026,
+    "area": 0.122
+  },
+  {
+    "name": "Şehabettinpaşa Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sehabettinpasa-nobetci-eczane",
+    "population": 977,
+    "area": 0.026
+  },
+  {
+    "name": "Çataltepe Mahallesi",
+    "district": "Kestel",
+    "slug": "cataltepe-nobetci-eczane",
+    "population": 958,
+    "area": 22.801
+  },
+  {
+    "name": "Kirazlı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "kirazli-nobetci-eczane",
+    "population": 893,
+    "area": 69.501
+  },
+  {
+    "name": "Alaaddinbey Mahallesi",
+    "district": "Nilüfer",
+    "slug": "alaaddinbey-nobetci-eczane",
+    "population": 806,
+    "area": 6.902
+  },
+  {
+    "name": "Ağaköy Mahallesi",
+    "district": "Gürsü",
+    "slug": "agakoy-nobetci-eczane",
+    "population": 778,
+    "area": 3.091
+  },
+  {
+    "name": "Selçukgazi Mahallesi",
+    "district": "Osmangazi",
+    "slug": "selcukgazi-nobetci-eczane",
+    "population": 748,
+    "area": 9.386
+  },
+  {
+    "name": "Reyhan Mahallesi",
+    "district": "Osmangazi",
+    "slug": "reyhan-nobetci-eczane",
+    "population": 712,
+    "area": 0.085
+  },
+  {
+    "name": "Karabalçık Mahallesi",
+    "district": "Osmangazi",
+    "slug": "karabalcik-nobetci-eczane",
+    "population": 707,
+    "area": 10.145
+  },
+  {
+    "name": "Cumalıkızık Mahallesi",
+    "district": "Yıldırım",
+    "slug": "cumalikizik-nobetci-eczane",
+    "population": 707,
+    "area": 14.731
+  },
+  {
+    "name": "Ümitalan Mahallesi",
+    "district": "Kestel",
+    "slug": "umitalan-nobetci-eczane",
+    "population": 672,
+    "area": 15.875
+  },
+  {
+    "name": "Derekızık Mahallesi",
+    "district": "Kestel",
+    "slug": "derekizik-nobetci-eczane",
+    "population": 646,
+    "area": 16.713
+  },
+  {
+    "name": "Armutköy Mahallesi",
+    "district": "Osmangazi",
+    "slug": "armutkoy-nobetci-eczane",
+    "population": 628,
+    "area": 4.058
+  },
+  {
+    "name": "Çeltikköy Mahallesi",
+    "district": "Osmangazi",
+    "slug": "celtikkoy-nobetci-eczane",
+    "population": 573,
+    "area": 3.135
+  },
+  {
+    "name": "Yiğitali Mahallesi",
+    "district": "Osmangazi",
+    "slug": "yigitali-nobetci-eczane",
+    "population": 556,
+    "area": 11.916
+  },
+  {
+    "name": "Şehreküstü Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sehrekustu-nobetci-eczane",
+    "population": 554,
+    "area": 0.09
+  },
+  {
+    "name": "Narlıdere Mahallesi",
+    "district": "Kestel",
+    "slug": "narlidere-nobetci-eczane",
+    "population": 545,
+    "area": 9.883
+  },
+  {
+    "name": "Gölcük Mahallesi",
+    "district": "Kestel",
+    "slug": "golcuk-nobetci-eczane",
+    "population": 474,
+    "area": 33.298
+  },
+  {
+    "name": "Çaybaşı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "caybasi-nobetci-eczane",
+    "population": 472,
+    "area": 9.787
+  },
+  {
+    "name": "Orhaniye Mahallesi",
+    "district": "Kestel",
+    "slug": "orhaniye-nobetci-eczane",
+    "population": 459,
+    "area": 30.91
+  },
+  {
+    "name": "Erdoğan Mahallesi",
+    "district": "Kestel",
+    "slug": "erdogan-nobetci-eczane",
+    "population": 458,
+    "area": 17.23
+  },
+  {
+    "name": "Büyükbalıklı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "buyukbalikli-nobetci-eczane",
+    "population": 456,
+    "area": 7.847
+  },
+  {
+    "name": "Dereçavuşköy Mahallesi",
+    "district": "Osmangazi",
+    "slug": "derecavuskoy-nobetci-eczane",
+    "population": 455,
+    "area": 6.288
+  },
+  {
+    "name": "Gökçe Mahallesi",
+    "district": "Nilüfer",
+    "slug": "gokce-nobetci-eczane",
+    "population": 452,
+    "area": 4.058
+  },
+  {
+    "name": "Alaçam Mahallesi",
+    "district": "Kestel",
+    "slug": "alacam-nobetci-eczane",
+    "population": 430,
+    "area": 20.712
+  },
+  {
+    "name": "Hasanköy Mahallesi",
+    "district": "Gürsü",
+    "slug": "hasankoy-nobetci-eczane",
+    "population": 424,
+    "area": 3.914
+  },
+  {
+    "name": "Bağlı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "bagli-nobetci-eczane",
+    "population": 415,
+    "area": 23.458
+  },
+  {
+    "name": "Gözede Mahallesi",
+    "district": "Kestel",
+    "slug": "gozede-nobetci-eczane",
+    "population": 403,
+    "area": 10.769
+  },
+  {
+    "name": "Dudaklı Mahallesi",
+    "district": "Kestel",
+    "slug": "dudakli-nobetci-eczane",
+    "population": 402,
+    "area": 7.342
+  },
+  {
+    "name": "Kozluören Mahallesi",
+    "district": "Kestel",
+    "slug": "kozluoren-nobetci-eczane",
+    "population": 398,
+    "area": 10.656
+  },
+  {
+    "name": "Turanköy Mahallesi",
+    "district": "Kestel",
+    "slug": "turankoy-nobetci-eczane",
+    "population": 385,
+    "area": 5.408
+  },
+  {
+    "name": "Saitabat Mahallesi",
+    "district": "Kestel",
+    "slug": "saitabat-nobetci-eczane",
+    "population": 345,
+    "area": 15.063
+  },
+  {
+    "name": "Tuzpazarı Mahallesi",
+    "district": "Osmangazi",
+    "slug": "tuzpazari-nobetci-eczane",
+    "population": 309,
+    "area": 0.078
+  },
+  {
+    "name": "Aksu Mahallesi",
+    "district": "Kestel",
+    "slug": "aksu-nobetci-eczane",
+    "population": 307,
+    "area": 13.714
+  },
+  {
+    "name": "Dağyenice Mahallesi",
+    "district": "Nilüfer",
+    "slug": "dagyenice-nobetci-eczane",
+    "population": 301,
+    "area": 8.813
+  },
+  {
+    "name": "Soğukpınar Mahallesi",
+    "district": "Osmangazi",
+    "slug": "sogukpinar-nobetci-eczane",
+    "population": 285,
+    "area": 17.448
+  },
+  {
+    "name": "Orhanbey Mahallesi",
+    "district": "Osmangazi",
+    "slug": "orhanbey-nobetci-eczane",
+    "population": 283,
+    "area": 0.038
+  },
+  {
+    "name": "Karacaoba Mahallesi",
+    "district": "Nilüfer",
+    "slug": "karacaoba-nobetci-eczane",
+    "population": 259,
+    "area": 7.151
+  },
+  {
+    "name": "Makşempınarı Mahallesi",
+    "district": "Nilüfer",
+    "slug": "maksempinari-nobetci-eczane",
+    "population": 251,
+    "area": 14.265
+  },
+  {
+    "name": "Seymen Mahallesi",
+    "district": "Kestel",
+    "slug": "seymen-nobetci-eczane",
+    "population": 248,
+    "area": 7.251
+  },
+  {
+    "name": "Alacamescit Mahallesi",
+    "district": "Osmangazi",
+    "slug": "alacamescit-nobetci-eczane",
+    "population": 247,
+    "area": 0.063
+  },
+  {
+    "name": "Başköy Mahallesi",
+    "district": "Nilüfer",
+    "slug": "baskoy-nobetci-eczane",
+    "population": 234,
+    "area": 16.959
+  },
+  {
+    "name": "Şevketiye Mahallesi",
+    "district": "Kestel",
+    "slug": "sevketiye-nobetci-eczane",
+    "population": 232,
+    "area": 9.178
+  },
+  {
+    "name": "Unçukuru Mahallesi",
+    "district": "Nilüfer",
+    "slug": "uncukuru-nobetci-eczane",
+    "population": 230,
+    "area": 10.046
+  },
+  {
+    "name": "Burhaniye Mahallesi",
+    "district": "Kestel",
+    "slug": "burhaniye-nobetci-eczane",
+    "population": 218,
+    "area": 7.12
+  },
+  {
+    "name": "Çatalağıl Mahallesi",
+    "district": "Nilüfer",
+    "slug": "catalagil-nobetci-eczane",
+    "population": 202,
+    "area": 14.263
+  },
+  {
+    "name": "Lütfiye Mahallesi",
+    "district": "Kestel",
+    "slug": "lutfiye-nobetci-eczane",
+    "population": 193,
+    "area": 10.872
+  },
+  {
+    "name": "Soğuksu Mahallesi",
+    "district": "Kestel",
+    "slug": "soguksu-nobetci-eczane",
+    "population": 184,
+    "area": 9.325
+  },
+  {
+    "name": "Balaban Mahallesi",
+    "district": "Yıldırım",
+    "slug": "balaban-nobetci-eczane",
+    "population": 182,
+    "area": 7.244
+  },
+  {
+    "name": "Osmaniye Mahallesi",
+    "district": "Kestel",
+    "slug": "osmaniye-nobetci-eczane",
+    "population": 179,
+    "area": 3.185
+  },
+  {
+    "name": "Zeyniler Mahallesi",
+    "district": "Yıldırım",
+    "slug": "zeyniler-nobetci-eczane",
+    "population": 144,
+    "area": 8.172
+  },
+  {
+    "name": "Süleymaniye Mahallesi",
+    "district": "Osmangazi",
+    "slug": "suleymaniye-nobetci-eczane",
+    "population": 143,
+    "area": 11.512
+  },
+  {
+    "name": "Ayvaköy Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ayvakoy-nobetci-eczane",
+    "population": 134,
+    "area": 7.805
+  },
+  {
+    "name": "Sayfiye Mahallesi",
+    "district": "Kestel",
+    "slug": "sayfiye-nobetci-eczane",
+    "population": 126,
+    "area": 9.925
+  },
+  {
+    "name": "Hüseyinalan Mahallesi",
+    "district": "Osmangazi",
+    "slug": "huseyinalan-nobetci-eczane",
+    "population": 105,
+    "area": 3.229
+  },
+  {
+    "name": "Ağlaşan Mahallesi",
+    "district": "Kestel",
+    "slug": "aglasan-nobetci-eczane",
+    "population": 99,
+    "area": 25.411
+  },
+  {
+    "name": "Üçpınar Mahallesi",
+    "district": "Nilüfer",
+    "slug": "ucpinar-nobetci-eczane",
+    "population": 71,
+    "area": 8.193
+  },
+  {
+    "name": "Nüzhetiye Mahallesi",
+    "district": "Kestel",
+    "slug": "nuzhetiye-nobetci-eczane",
+    "population": 65,
+    "area": 8.218
+  },
+  {
+    "name": "Kayacık Mahallesi",
+    "district": "Kestel",
+    "slug": "kayacik-nobetci-eczane",
+    "population": 60,
+    "area": 18.309
+  },
+  {
+    "name": "Gölbaşı Mahallesi",
+    "district": "Kestel",
+    "slug": "golbasi-nobetci-eczane",
+    "population": 49,
+    "area": 10.298
+  }
+]
