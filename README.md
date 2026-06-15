@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nöbetçi Eczane — En Yakın Nöbetçi Eczaneler
 
-## Getting Started
+Türkiye'de nöbetçi eczaneleri **harita üzerinde** ve **konumuna göre en yakından** başlayarak bulmanı sağlayan bir web uygulaması. Şu an **Bursa** aktif olup, mimari yeni şehirler eklenecek şekilde tasarlanmıştır.
 
-First, run the development server:
+## Özellikler
+
+- **En yakın nöbetçi eczane** — Tarayıcı konum izni ile sana en yakın açık eczaneleri mesafeye göre sıralar.
+- **Harita görünümü** — Leaflet tabanlı interaktif harita, çok sayıda eczane için kümeleme (clustering) desteği.
+- **İlçe / mahalle araması** — İlçe ve mahalleye göre filtreleme ve arama.
+- **SEO uyumlu sayfalar** — Her ilçe ve mahalle için ayrı, sunucu tarafında üretilen sayfalar; `sitemap`, `robots` ve JSON-LD yapısal verisi.
+- **Güncel veri** — Nöbetçi eczane listesi [Bursa Eczacı Odası](https://www.beo.org.tr/nobetci-eczaneler)'ndan periyodik olarak çekilir (ISR / önbellekleme ile).
+- **Çoklu şehir mimarisi** — Şehirler `lib/cities` altında merkezi bir kayıt (registry) ile yönetilir; yeni şehir eklemek kolaydır.
+
+## Teknolojiler
+
+- [Next.js 16](https://nextjs.org/) (App Router) + React 19
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Leaflet](https://leafletjs.com/) · `react-leaflet` · `react-leaflet-cluster`
+- [Cheerio](https://cheerio.js.org/) (HTML parse / scraping)
+- TypeScript
+
+## Başlangıç
+
+Gereksinim: Node.js 20+
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Bağımlılıkları yükle
+pnpm install
+
+# Geliştirme sunucusunu başlat
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ardından [http://localhost:3000](http://localhost:3000) adresini aç.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Komutlar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+| Komut                | Açıklama                                                                        |
+| -------------------- | ------------------------------------------------------------------------------- |
+| `npm run dev`        | Geliştirme sunucusunu başlatır                                                  |
+| `npm run build`      | Üretim derlemesi oluşturur                                                      |
+| `npm run start`      | Üretim sunucusunu başlatır                                                      |
+| `npm run lint`       | ESLint ile kod denetimi yapar                                                   |
+| `npm run build:data` | `site.html` / `mahalle.html` dosyalarından ilçe ve mahalle JSON verisini üretir |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Ortam değişkenleri
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+| Değişken               | Açıklama                                              | Varsayılan                                 |
+| ---------------------- | ----------------------------------------------------- | ------------------------------------------ |
+| `NEXT_PUBLIC_SITE_URL` | Sitenin tam URL'i (metadata, sitemap, canonical için) | `https://bursa-en-yakin-eczane.vercel.app` |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Proje Yapısı
+
+```
+app/
+  page.tsx                         # Şehir seçim sayfası
+  [city]/page.tsx                  # Şehir nöbetçi eczane listesi
+  [city]/en-yakin-nobetci-eczane/  # Konuma göre en yakın eczaneler
+  [city]/[slug]/page.tsx           # İlçe / mahalle bazlı SEO sayfaları
+  api/eczaneler/                   # Nöbetçi eczane verisi
+  api/cities/                      # Aktif şehirler
+  api/revalidate/                  # Önbellek yenileme
+components/                        # Harita, kart, arama vb. UI bileşenleri
+lib/
+  cities/                          # Şehir kayıt sistemi (registry) ve şehir konfigürasyonları
+  scrape.ts                        # Veri çekme yardımcıları
+  geo.ts                           # Mesafe / konum hesaplamaları
+data/                              # Üretilmiş ilçe / mahalle JSON verisi
+scripts/build-data.mjs            # Veri üretim betiği
+```
+
+## Yeni Şehir Ekleme
+
+1. `lib/cities/<sehir>/` altında `meta.ts`, `scrape.ts` ve `config.ts` oluştur.
+2. Şehri `lib/cities/registry.ts` içindeki `CITIES` kaydına ekle.
+3. İlgili veri kaynağı için bir scraper yazıp `data/<sehir>/` altında ilçe/mahalle verisini üret.
+
+## Destek Ol ☕
+
+Bu proje açık ve ücretsiz olarak geliştiriliyor. Faydalı bulduysan geliştirmenin devamı için destek olabilirsin:
+
+👉 **[kreosus.com/piemree](https://kreosus.com/piemree)** üzerinden kahve ısmarlayabilirsin.
+
+Her türlü destek; sunucu maliyetleri, yeni şehirlerin eklenmesi ve uygulamanın geliştirilmesi için çok değerli. Teşekkürler!
+
+## Sorumluluk Reddi
+
+Nöbetçi eczane bilgileri ilgili eczacı odalarının resmi kaynaklarından alınır. Veriler güncel tutulmaya çalışılsa da, çıkmadan önce eczaneyi telefonla teyit etmeniz önerilir.
